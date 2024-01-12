@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+}
+.container{
+
+}
+
+.cardfront {
+    width: 15vw;
+    height: 55vh;
+    background-color: rgba(5, 37, 57, 0.8);
+    padding: 2rem;
+  
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+.cardback {
+    
+}
+

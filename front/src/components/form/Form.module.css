@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&family=Inter:wght@400;600;700&display=swap');
+
+.container {
+  border: 2px solid rgb(10, 110, 22)(0, 255, 30);
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/Pickle\ Rick.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border: 1px solid green;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center; 
+}
+
+.loginform {
+    width: 20vw;
+    height: 20vh;
+    background-color: rgba(41, 82, 62, 0.6);
+    padding-bottom: 20rem;
+    margin: 0 auto;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.button40 {
+    --glow-color: rgb(176, 255, 209);
+    --glow-spread-color: rgba(34, 160, 98, 0.8);
+    --enhanced-glow-color: rgba(29, 232, 132, 0.8);
+    --btn-color: rgba(30, 109, 90, 0.8);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 1em var(--glow-spread-color),
+          inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    }
+  
+  .button40::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+  }
+  
+  .button40:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+          0 0 4em 2em var(--glow-spread-color),
+          inset 0 0 .75em .25em var(--glow-color);
+  }
+  
+  .button40:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+          0 0 2.5em 2em var(--glow-spread-color),
+          inset 0 0 .5em .25em var(--glow-color);
+  }
+
+  .input {
+   
+    background: rgb(31, 32, 35);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  form {
+    margin-top: 10rem;
+   
+  }
+
+  
+  /*
+  padding: 6px 12px;
+  background: rgb(31, 32, 35);
+  border: 1px solid rgb(60, 63, 68);
+  border-radius: 4px;
+  font-size: 13px;
+  color: rgb(247, 248, 248);
+  height: 46px;
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  :focus{
+      outline: none;
+      box-shadow: none;
+      border-color: rgb(100, 153, 255);
+  }
+*/

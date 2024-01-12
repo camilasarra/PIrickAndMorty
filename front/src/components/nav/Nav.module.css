@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&family=Inter:wght@300;400;600;700&display=swap');
+
+.containernav{
+    
+    background-color: rgba(5, 37, 57, 0.6);
+    display: flex;
+    width: 95vw;
+    height: 16vh;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.logo{
+    background-image: url("../images/rym.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    width: 20vw;
+    height: 20vh;
+}
+
+.homebtn, .fav,  .about{
+   width: 9rem;
+   margin-left: 10rem;
+   font-family: 'Inconsolata', monospace;
+   font-size: 1.6rem;
+   font-weight: 500;
+   background-color: rgba(137, 129, 242, 0.8);
+   border-radius: 1rem;
+   padding: 0.4rem;
+}
+
+.homebtn:hover, .fav:hover, .about:hover {
+    background-color: rgba(255, 223, 169, 1.5);
+}
+
+.homebtn:focus, .fav:focus, .about:focus{
+    background-color:rgba(255, 223, 169, 1.5) ;
+}

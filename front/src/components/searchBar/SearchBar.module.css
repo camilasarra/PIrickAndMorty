@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&family=Inter:wght@300;400;600;700&display=swap');
+
+
+.container{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 4vw;
+    height: 3.3vh;
+    margin-left: 10rem;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color:rgba(255, 223, 169, 1.5);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn{
+    width: 5vw;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(137, 129, 242, 0.8);
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    
+}
+
+.btn:hover {
+    background-color: rgba(255, 223, 169, 1.5);
+}

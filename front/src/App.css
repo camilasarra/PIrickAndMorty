@@ -1,0 +1,157 @@
+/*
+ @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;800&family=Inter:wght@400;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  padding: 5em;
+  text-align: center;
+  background: url("../images/Pickle\ Rick.jpg") no-repeat center center fixed;
+  background-size: cover;
+  border: 2px solid red;
+   
+}
+
+img {
+  min-height: 100%;
+  max-width: 100%;
+}
+
+
+.loguin-form {
+  width: 90%;
+  border-radius: 1.25rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: url("../images/633189.jpg") no-repeat center center ;
+  background-size:contain;
+  height: 32rem;
+  padding: 1.25rem;
+  
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+input {
+  width:65%;
+  height: 3rem;
+  border-radius: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  margin: 0 auto;
+  
+}
+
+.input-container {
+  border: 2px solid black;
+  background-color: rgb(39, 38, 38);
+  padding: 1.2rem;
+  border-radius: 10%;
+}
+
+.errors {
+  font-size: 0.8rem;
+  background-color: aliceblue;
+  color: rgb(3, 3, 3);
+  font-weight: bold;
+  border: 2px solid orange;
+  text-align: center;
+  margin-left: 13rem;
+}
+
+.button40 {
+  --glow-color: rgb(176, 255, 209);
+  --glow-spread-color: rgba(34, 160, 98, 0.8);
+  --enhanced-glow-color: rgba(29, 232, 132, 0.8);
+  --btn-color: rgba(30, 109, 90, 0.8);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  }
+
+.button40::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.button40:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.button40:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+
+.container-card {
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem;
+}
+
+.card {
+  
+   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightslategray;
+  border: 2px solid rgb(85, 95, 105);
+  border-radius: 1rem;
+  
+}
+*/
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url("../images/1259528.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;    
+ 
+}
+
+link{
+  text-decoration: none;
+}
